@@ -33,9 +33,8 @@
   // named function like the examples above (hint; the lecture material used anonymous functions)
   // and uses console.log to print "The {dogName} needs to go for a walk!".
 
-  const dogGoWalk = function (dogName) {
+  dogs.forEach(function (dogName) {
     console.log(`The ${dogName} needs to go for a walk!`);
-  };
-
+  });
   dogs.forEach(dogGoWalk);
 </script>
